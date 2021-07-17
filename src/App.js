@@ -6,11 +6,13 @@ import './index.css'
 function App() {
   return (
     <>
-      <div className='w-full'>
-        <Home />
+      <div className=''>
+        <div className='absolute w-full'>
+          <Home />
+          <Navbar />
+        </div>
         <div className='absolute w-full '>
           <Header />
-          <Navbar />
         </div>
       </div>
     </>

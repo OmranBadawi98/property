@@ -9,9 +9,13 @@ import {
 } from 'react-icons/fa'
 import { RiWhatsappFill } from 'react-icons/ri'
 
+// const [Fixe,setFixe] = () => {
+
+// }
+
 function Header() {
   return (
-    <header className='pt-4 pb-4 h-20 w-full bg-blue-800 bg-opacity-30 flex fixed '>
+    <header className='pt-4 pb-4 h-20 w-full bg-blue-800 bg-opacity-30 flex fixed'>
       <div className='pr-12 ml-auto h-full space-x-4 space-x-reverse'>
         <button className='border-2 bg-gray-300 rounded-full h-12 w-12'>
           <FaSnapchatGhost className='w-7 h-7 text-red-600 m-auto' />
